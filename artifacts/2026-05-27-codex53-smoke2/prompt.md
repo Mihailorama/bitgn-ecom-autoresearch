@@ -1,0 +1,1 @@
+Read the copied BitGN ECOM repo enough to propose one isolated next experiment. Do not modify files. Return a concise proposal with target task shape, evidence to collect, one isolated change, verifier commands, and abort condition.

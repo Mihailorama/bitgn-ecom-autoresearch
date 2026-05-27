@@ -1,0 +1,8 @@
+{
+  "name": "codex53-readonly-smoke",
+  "model": "gpt-5.3-codex",
+  "target_repo": "/Users/m/code/mihailorama/bitgn-ecom-agent",
+  "task": "Read the current BitGN ECOM agent repo at a high level and propose one isolated next experiment for t16-style inventory/catalog reference failures. Do not edit files and do not run benchmarks.",
+  "out_dir": "/Users/m/code/mihailorama/bitgn-ecom-autoresearch/artifacts/2026-05-27-codex53-readonly-smoke",
+  "created_utc": "2026-05-27T07:22:32.011714+00:00"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "command": [
+      "/bin/zsh",
+      "-lc",
+      "uv run python -m py_compile agent.py llm.py run_parallel.py portfolio_runner.py"
+    ],
+    "returncode": 0,
+    "elapsed_seconds": 0.653,
+    "output": "Using CPython 3.13.13 interpreter at: /opt/homebrew/opt/python@3.13/bin/python3.13\nCreating virtual environment at: .venv\nInstalled 63 packages in 253ms\n",
+    "timed_out": false
+  }
+]

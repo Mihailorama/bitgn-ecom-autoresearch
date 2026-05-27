@@ -1,0 +1,13 @@
+[
+  "codex",
+  "exec",
+  "-m",
+  "gpt-5.3-codex",
+  "--sandbox",
+  "read-only",
+  "-C",
+  "/Users/m/code/mihailorama/bitgn-ecom-agent",
+  "--output-last-message",
+  "/Users/m/code/mihailorama/bitgn-ecom-autoresearch/artifacts/2026-05-27-codex53-readonly-smoke/codex-response.md",
+  "# BitGN ECOM Autoresearch Program\n\nYou are running a single read-only research iteration for the BitGN ECOM agent.\n\nTarget repo: `/Users/m/code/mihailorama/bitgn-ecom-agent`\nModel: `gpt-5.3-codex`\n\nTask:\nRead the current BitGN ECOM agent repo at a high level and propose one isolated next experiment for t16-style inventory/catalog reference failures. Do not edit files and do not run benchmarks.\n\nRules:\n- Do not edit files.\n- Do not run full benchmark sweeps.\n- Read only the minimum repo context needed.\n- Propose exactly one isolated experiment that can be validated with targeted tests.\n- Explicitly list the likely affected task ids and the tasks that must remain unchanged.\n- Return Markdown with these sections: Observation, Proposed Single Change, Validation, Stop Criteria.\n"
+]
